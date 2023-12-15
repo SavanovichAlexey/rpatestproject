@@ -1,13 +1,14 @@
 {
-  "name": "RPATestProject",
-  "projectId": "4c96e032-f07b-4ad4-a6f1-47148fa9e708",
+  "name": "RPATest",
+  "projectId": "c7b8452e-3597-45f1-a343-516245706c72",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.21.0-preview]",
+    "UiPath.Mail.Activities": "[1.20.2]",
     "UiPath.System.Activities": "[23.6.0-preview]",
     "UiPath.Testing.Activities": "[23.6.0-preview]",
-    "UiPath.UIAutomation.Activities": "[23.6.1-preview]",
-    "UiPath.WebAPI.Activities": "[1.16.2]"
+    "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -19,7 +20,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": false,
+    "requiresUserInteraction": true,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -49,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "1c21096e-6936-43af-b888-5d189304a3de",
+      "uniqueId": "b54a16f3-487e-4dc9-bf2e-7bfdd5f1245c",
       "input": [],
       "output": []
     }
@@ -57,5 +58,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Portable"
+  "targetFramework": "Windows"
 }
